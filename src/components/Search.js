@@ -2,7 +2,12 @@ import React from 'react'
 
 function Search() {
   return (
-    <div>Search</div>
+    <div>
+      <form>
+        <input name='search'></input>
+        <button type='submit'>Search</button>
+      </form>
+    </div>
   )
 }
 
