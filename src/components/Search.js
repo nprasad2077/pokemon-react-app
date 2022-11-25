@@ -1,12 +1,10 @@
 import React from 'react'
 
-function Search() {
+function Search({handleChange, handleSubmit}) {
   return (
     <div>
-      <form>
-        <input name='search'></input>
-        <button type='submit'>Search</button>
-      </form>
+        <input name='search' onChange={handleChange}></input>
+        <button type='submit' onClick={handleSubmit}>Search</button>
     </div>
   )
 }
